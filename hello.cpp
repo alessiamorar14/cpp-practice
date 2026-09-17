@@ -2,6 +2,9 @@
 using namespace std;
 int main()
 { 
-  cout<<"Hello GitHub!";
+  string nume;
+  cout<<"Cum te cheama?";
+  cin>>nume;
+  cout<<"Hello, "<<nume<<"!";
   return 0;
 }
